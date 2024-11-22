@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.security.MessageDigest;
 import java.util.Random;
 
-public class Main {
+public class DestinationHashGenerator {
     public static void main(String[] args) {
         // Step 1: Parse command-line arguments
         if (args.length != 2) {
